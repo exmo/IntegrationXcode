@@ -28,25 +28,12 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    //XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    XCTAssertEqual(@"Robgol", @"Robgol", @"Ok, Robgol eh igual a Robgol");
 }
+
 
 - (void)testExample2
-{
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
-}
-
-- (void)testExample3
-{
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
-}
-
-- (void)testExample4
-{
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
-}
-
-- (void)testExample5
 {
     XCTAssertEqual(@"Robgol", @"Robgol", @"Ok, Robgol eh igual a Robgol");
 }
