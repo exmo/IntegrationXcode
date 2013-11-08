@@ -46,4 +46,9 @@
     XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
 }
 
+- (void)testExample5
+{
+    XCTAssertEqual(@"Robgol", @"Robgol", @"Ok, Robgol eh igual a Robgol");
+}
+
 @end
